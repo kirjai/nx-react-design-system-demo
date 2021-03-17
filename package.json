@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    
     "nx": "nx",
     "start": "nx serve",
     "build": "nx build",
@@ -27,16 +26,15 @@
     "help": "nx help"
   },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-     
-    "@nrwl/tao": "11.5.1",
     "@nrwl/cli": "11.5.1",
+    "@nrwl/react": "^11.5.1",
+    "@nrwl/tao": "11.5.1",
     "@nrwl/workspace": "11.5.1",
     "@types/node": "12.12.38",
     "dotenv": "6.2.0",
+    "prettier": "2.2.1",
     "ts-node": "~9.1.1",
-    "typescript": "~4.0.3",
-    "prettier": "2.2.1"
+    "typescript": "~4.0.3"
   }
 }

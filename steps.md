@@ -1,0 +1,6 @@
+- pnpx create-nx-workspace@latest --packageManager pnpm
+  - 11.5.1 used
+  - "design-system"
+  - empty
+  - No NxCloud
+- pnpm i @nrwl/react -D
