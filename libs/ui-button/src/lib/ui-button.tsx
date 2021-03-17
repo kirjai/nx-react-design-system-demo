@@ -5,8 +5,11 @@ import styled from 'styled-components';
 /* eslint-disable-next-line */
 export interface UIButtonProps {}
 
-const StyledButton = styled.div`
-  color: pink;
+const StyledButton = styled.button`
+  border: 1px solid firebrick;
+  background-color: darkred;
+  color: white;
+  padding: 5px 10px;
 `;
 
 export function UIButton(props: UIButtonProps) {

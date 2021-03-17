@@ -14,3 +14,10 @@
   - starts on localhost:4400
 - make changes to ui-button.tsx and see them reflected in the running storybook
   - rename to UIButton
+  - change styling
+
+improvements:
+
+- pnpm nx g @nrwl/react:storybook-configuration goes through the whole flow, but errors at the end "Required property 'name' is missing"
+- drop react import from react generators?
+- drop default export of lib react components?
