@@ -1,6 +1,8 @@
 - pnpx create-nx-workspace@latest --packageManager pnpm
   - 11.5.1 used
-  - "design-system"
+  - "myorg"
   - empty
   - No NxCloud
 - pnpm i @nrwl/react -D
+- pnpm nx g @nrwl/react:lib
+  - name? "ui-button"

@@ -1,10 +1,28 @@
 {
-  
-  
   "version": 2,
-  
-  "projects": {},
-  "cli": {
-    "defaultCollection": "@nrwl/workspace"
+  "cli": { "defaultCollection": "@nrwl/react" },
+  "generators": { "@nrwl/react": { "application": { "babel": true } } },
+  "projects": {
+    "ui-button": {
+      "root": "libs/ui-button",
+      "sourceRoot": "libs/ui-button/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/ui-button/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ui-button"],
+          "options": {
+            "jestConfig": "libs/ui-button/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    }
   }
 }
