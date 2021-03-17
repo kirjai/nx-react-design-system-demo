@@ -3,18 +3,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 /* eslint-disable-next-line */
-export interface UiButtonProps {}
+export interface UIButtonProps {}
 
-const StyledUiButton = styled.div`
+const StyledButton = styled.div`
   color: pink;
 `;
 
-export function UiButton(props: UiButtonProps) {
+export function UIButton(props: UIButtonProps) {
   return (
-    <StyledUiButton>
+    <StyledButton>
       <h1>Welcome to ui-button!</h1>
-    </StyledUiButton>
+    </StyledButton>
   );
 }
 
-export default UiButton;
+export default UIButton;

@@ -9,4 +9,8 @@
 - pnpm nx g @nrwl/react:storybook-configuration ui-button
   - configure cypress? y
   - automatically generate story files? y
-  - spec files? y
+  - spec files? ys
+- pnpm nx run ui-button:storybook
+  - starts on localhost:4400
+- make changes to ui-button.tsx and see them reflected in the running storybook
+  - rename to UIButton

@@ -1,14 +1,14 @@
 import React from 'react';
-import { UiButton, UiButtonProps } from './ui-button';
+import { UIButton, UIButtonProps } from './ui-button';
 
 export default {
-  component: UiButton,
-  title: 'UiButton',
+  component: UIButton,
+  title: 'UIButton',
 };
 
 export const primary = () => {
   /* eslint-disable-next-line */
-  const props: UiButtonProps = {};
+  const props: UIButtonProps = {};
 
-  return <UiButton />;
+  return <UIButton />;
 };
