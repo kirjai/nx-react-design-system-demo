@@ -1,5 +1,5 @@
 import React from 'react';
-import { UIButton, UIButtonProps } from './ui-button';
+import { UIButton } from './ui-button';
 
 export default {
   component: UIButton,
@@ -7,8 +7,5 @@ export default {
 };
 
 export const primary = () => {
-  /* eslint-disable-next-line */
-  const props: UIButtonProps = {};
-
-  return <UIButton />;
+  return <UIButton>Click me!</UIButton>;
 };

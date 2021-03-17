@@ -2,8 +2,9 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-/* eslint-disable-next-line */
-export interface UIButtonProps {}
+export interface UIButtonProps {
+  children: React.ReactNode;
+}
 
 const StyledButton = styled.button`
   border: 1px solid firebrick;
@@ -13,11 +14,7 @@ const StyledButton = styled.button`
 `;
 
 export function UIButton(props: UIButtonProps) {
-  return (
-    <StyledButton>
-      <h1>Welcome to ui-button!</h1>
-    </StyledButton>
-  );
+  return <StyledButton {...props} />;
 }
 
 export default UIButton;

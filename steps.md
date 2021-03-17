@@ -15,6 +15,7 @@
 - make changes to ui-button.tsx and see them reflected in the running storybook
   - rename to UIButton
   - change styling
+  - add children prop
 
 improvements:
 
